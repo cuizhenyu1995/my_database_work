@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>关于我们</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap Docs -->
+        <link href="http://getbootstrap.com/assets/css/docs.css" rel="stylesheet" media="screen">
+
+        <!-- Bootstrap -->
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="/static/css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+
+        <!-- Bootstrap Admin Theme -->
+        <link href="/static/css/bootstrap-admin-theme.css" rel="stylesheet" media="screen">
+
+        <!-- Custom styles -->
+        <style type="text/css">
+            .bootstrap-admin-content-title h1{
+                font-size: 45px;
+                margin-bottom: 30px;
+            }
+            .bs-docs-home{
+            }
+            .bs-masthead{
+                padding: 0;
+            }
+            .bs-masthead h1{
+                font-size: 40px;
+                margin: 0;
+                padding: 34px 0;
+                text-align: center;
+            }
+            .bs-masthead a:hover{
+                text-decoration: none;
+            }
+            .meritoo-logo a{
+                background-color: #fff;
+                border: 1px solid rgba(66, 139, 202, 0.4);
+                display: block;
+                padding: 12px 0;
+            }
+            .meritoo-logo a img{
+                display: block;
+                margin: 0 auto;
+            }
+            .row-urls{
+                margin-top: 4px;
+            }
+            .row-urls .col-md-6{
+                text-align: center;
+            }
+            .row-urls .col-md-6 a{
+                font-size: 18px;
+            }
+        </style>
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+           <script type="text/javascript" src="js/html5shiv.js"></script>
+           <script type="text/javascript" src="js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body class="bootstrap-admin-with-small-navbar">
+     <nav class="navbar navbar-default navbar-inverse navbar-fixed-top " role="navigation">
+	 <div class="container">
+       <div class="row">
+		  <!-- Brand and toggle get grouped for better mobile display -->
+		  <div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			  <span class="sr-only">Toggle navigation</span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="">设备管理系统</a>
+		  </div>
+		  <!-- Collect the nav links, forms, and other content for toggling -->
+		  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+			  <li ><a href="/online/index">首页</a></li>
+			  <li class="active"><a href="">关于我们</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+                <li><a href="">个人资料</a></li>
+                <li><a href="/online/index/logout/">退出登录</a></li>
+			</ul>
+		  </div><!-- /.navbar-collapse -->
+		  </div>
+		  </div>
+		</nav>
+
+        <div class="container">
+            <!-- left, vertical navbar & content -->
+            <div class="row">
+                <!-- left, vertical navbar -->
+                <div class="col-md-2 bootstrap-admin-col-left">
+                    <ul class="nav navbar-collapse collapse bootstrap-admin-navbar-side">
+                         <li >
+                            <a href="/online/index/"><i class="glyphicon glyphicon-chevron-right"></i> 首页</a>
+                        </li>
+                        <li >
+                            <a href="/online/index/yhgl/"><i class="glyphicon glyphicon-chevron-right"></i>用户管理</a>
+                        </li>
+                        <li>
+                            <a href="/online/index/tjsb/"><i class="glyphicon glyphicon-chevron-right"></i>设备信息</a></li>
+                        <li>
+                            <a href="/online/index/gmsb/"><i class="glyphicon glyphicon-chevron-right"></i>购买设备</a>
+                        </li>
+                        <li>
+                            <a href="/online/index/jcsb/"><i class="glyphicon glyphicon-chevron-right"></i>设备借出</a>
+                        </li>
+                        <li>
+                            <a href="/online/index/sbbx/"><i class="glyphicon glyphicon-chevron-right"></i>设备报修</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- content -->
+                <div class="col-md-10">
+                     <div class="row bootstrap-admin-no-edges-padding">
+                        <div class="col-md-6">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <div class="text-muted bootstrap-admin-box-title">内容</div>
+                                </div>
+                                <div class="bootstrap-admin-panel-content">
+                                    <ul>
+                                        <li>前端基于<a href="http://getbootstrap.com" target="_blank">Bootstrap 3.x.</a>构建</li>
+                                        <li>后端基于<a href="http://www.djangoproject.com" target="_blank">Django 1.8</a>搭建</li>
+                                        <li>基于<a href="https://github.com/VinceG/Bootstrap-Admin-Theme" target="_blank">Bootstrap-Admin-Theme</a>修改</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <div class="text-muted bootstrap-admin-box-title">代码</div>
+                                </div>
+                                <div class="bootstrap-admin-panel-content">
+                                    <ul>
+                                        <li>
+                                            <a href="https://github.com/nj-czy/">下载地址</a>
+                                        </li>
+                                        <li>
+                                            License: MIT 
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row bootstrap-admin-no-edges-padding">
+                        <div class="col-md-12">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <div class="text-muted bootstrap-admin-box-title">License</div>
+                                </div>
+                                <div class="bootstrap-admin-panel-content">
+                                    <p>The MIT License (MIT)</p>
+                                    <p>版权所有© 2018&gt;</p>
+                                    <p>本网站所有内容、版权均属本公司所有。</p>
+                                    <p>任何媒体、网站或个人未经本公司协议授权，不得转载、链接、转贴或以其他方式复制发布/发表。</p>
+                                    <p>已经本公司协议授权的媒体、网站，在下载使用时必须注明"稿件来源：本公司"，违者本网将依法追究责任。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
+            <div class="row">
+                <hr>
+                <footer role="contentinfo">
+                    <p>2018 Powered by <a href="127.0.0.1:8000/online/about/" target="_blank">崔振宇</a></p>
+                </footer>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+        <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/static/js/twitter-bootstrap-hover-dropdown.min.js"></script>
+    </body>
+</html>
